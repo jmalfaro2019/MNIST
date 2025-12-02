@@ -4,6 +4,7 @@
 
 // declara la función extern
 std::vector<float> read_image_as_mnist_vector(bool normalize01 = false);
+std::pair<int, float> clasifier(const std::vector<float> &v);
 
 int main() {
   std::cout
@@ -19,7 +20,18 @@ int main() {
   }
 
   std::cout << "Vector recibido correctamente. Listo para clasificar.\n";
-  // Aquí iría la llamada al clasificador usando 'v'
+
+  // Llamar al clasificador
+  std::pair<int, float> resultado = clasifier(v);
+
+  if (resultado.first == -1) {
+    std::cerr << "Error en la clasificación.\n";
+    return 1;
+  }
+
+  std::cout << "\n=== RESULTADO ===\n";
+  std::cout << "Dígito predicho: " << resultado.first << "\n";
+  std::cout << "logit máximo: " << resultado.second << "\n";
 
   return 0;
 }

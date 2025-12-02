@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/Users/alfar/OneDrive/Escritorio/MNIST/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/MnistClassifier.dir/includes_CXX.rsp -g -o CMakeFiles\\MnistClassifier.dir\\main.cpp.obj -c C:\\Users\\alfar\\OneDrive\\Escritorio\\MNIST\\main.cpp",
+  "file": "C:/Users/alfar/OneDrive/Escritorio/MNIST/main.cpp",
+  "output": "CMakeFiles/MnistClassifier.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/alfar/OneDrive/Escritorio/MNIST/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/MnistClassifier.dir/includes_CXX.rsp -g -o CMakeFiles\\MnistClassifier.dir\\input.cpp.obj -c C:\\Users\\alfar\\OneDrive\\Escritorio\\MNIST\\input.cpp",
+  "file": "C:/Users/alfar/OneDrive/Escritorio/MNIST/input.cpp",
+  "output": "CMakeFiles/MnistClassifier.dir/input.cpp.obj"
+},
+{
+  "directory": "C:/Users/alfar/OneDrive/Escritorio/MNIST/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/MnistClassifier.dir/includes_CXX.rsp -g -o CMakeFiles\\MnistClassifier.dir\\clasifier.cpp.obj -c C:\\Users\\alfar\\OneDrive\\Escritorio\\MNIST\\clasifier.cpp",
+  "file": "C:/Users/alfar/OneDrive/Escritorio/MNIST/clasifier.cpp",
+  "output": "CMakeFiles/MnistClassifier.dir/clasifier.cpp.obj"
+}
+]

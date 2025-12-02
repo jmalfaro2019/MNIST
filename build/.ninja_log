@@ -1,5 +1,9 @@
 # ninja log v6
-42	356	7864023475761238	build.ninja	65c2d6f69ad67b99
+42	356	7864095591730723	build.ninja	65c2d6f69ad67b99
 60	2985	7863754785785964	CMakeFiles/MnistClassifier.dir/input.cpp.obj	29d39efc3fccb590
 41	789	7864022914416577	CMakeFiles/MnistClassifier.dir/main.cpp.obj	c028aea27a6ace6c
 794	1013	7864022921904301	MnistClassifier.exe	eb561691fa190963
+45	859	7864095638065226	CMakeFiles/MnistClassifier.dir/main.cpp.obj	222f2b40761913cd
+53	4621	7864095638136669	CMakeFiles/MnistClassifier.dir/input.cpp.obj	9586d493f7fe849e
+8	2849	7864097460005209	CMakeFiles/MnistClassifier.dir/clasifier.cpp.obj	22a50a7d68934d11
+2852	3605	7864097488433504	MnistClassifier.exe	5842dc96cec36a1f

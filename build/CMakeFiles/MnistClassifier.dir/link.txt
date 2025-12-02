@@ -1,0 +1,3 @@
+C:\Strawberry\c\bin\cmake.exe -E rm -f CMakeFiles\MnistClassifier.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\MnistClassifier.dir/objects.a @CMakeFiles\MnistClassifier.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\MnistClassifier.dir/objects.a -Wl,--no-whole-archive -o MnistClassifier.exe -Wl,--out-implib,libMnistClassifier.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MnistClassifier.dir\linkLibs.rsp

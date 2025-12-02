@@ -8,7 +8,6 @@
 #include <utility>
 #include <vector>
 
-
 // CAMBIO: cambiar el tipo del segundo valor del pair a float (para devolver el
 // logit máximo)
 std::pair<int, float> clasifier(const std::vector<float> &v) {
@@ -28,14 +27,11 @@ std::pair<int, float> clasifier(const std::vector<float> &v) {
     session_options.SetIntraOpNumThreads(1);
 
     // 2. Cargar el Modelo (.onnx)
-    // CAMBIO: usar const char* para ruta (más portable en ambientes
-    // linux/windows si tu build lo espera)
-    const char *model_path =
-        "mnist_cnn.onnx"; // CAMBIO: modificado desde wchar_t originalmente
+    // En Windows, ONNX Runtime requiere wchar_t*
+    const wchar_t *model_path = L"mnist_cnn.onnx";
 
     // Crear la sesión (lanza excepción si no encuentra el modelo)
-    Ort::Session session(env, model_path,
-                         session_options); // CAMBIO: añadida creación de sesión
+    Ort::Session session(env, model_path, session_options);
 
     // MNIST es 1x1x28x28 = 784 float32
     const int64_t batch_size = 1;
