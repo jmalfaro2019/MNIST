@@ -1,0 +1,5 @@
+# ninja log v6
+42	356	7864023475761238	build.ninja	65c2d6f69ad67b99
+60	2985	7863754785785964	CMakeFiles/MnistClassifier.dir/input.cpp.obj	29d39efc3fccb590
+41	789	7864022914416577	CMakeFiles/MnistClassifier.dir/main.cpp.obj	c028aea27a6ace6c
+794	1013	7864022921904301	MnistClassifier.exe	eb561691fa190963

@@ -1,0 +1,3 @@
+C:/Users/alfar/OneDrive/Escritorio/MNIST/build/CMakeFiles/MnistClassifier.dir
+C:/Users/alfar/OneDrive/Escritorio/MNIST/build/CMakeFiles/edit_cache.dir
+C:/Users/alfar/OneDrive/Escritorio/MNIST/build/CMakeFiles/rebuild_cache.dir
